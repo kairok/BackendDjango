@@ -1,0 +1,6 @@
+django==2.0.6
+pymysql
+gevent
+gunicorn
+djangorestframework
+django-cors-headers

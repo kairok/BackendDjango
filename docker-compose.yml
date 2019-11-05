@@ -1,0 +1,17 @@
+version: '3'
+services:
+  webservice:
+
+    build:
+        context: .
+    command: python manage.py runserver 0.0.0.0:5000
+    volumes:
+            - .:/srv/app/ 
+    ports:
+     - "8008:5000"
+    volumes:
+     - .:/code
+
+
+
+
