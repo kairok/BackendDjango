@@ -1,4 +1,4 @@
-django==2.0.6
+django==2.0.12
 pymysql
 gevent
 gunicorn
